@@ -60,8 +60,8 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hi, I'm Soham.</span> I'm a{" "}
-        <span className="font-bold">marketing professional </span> with a focus on{" "}
-        <span className="font-bold">Advertisement and Public Relations </span> . I excel in
+        <span className="font-bold">marketing professional </span> specializing in {" "}
+        <span className="font-bold">Advertising and Public Relations </span> , with expertise
         <span className="italic"> social media marketing & strategic communication </span>. Let's work together to{" "}
         <span className="underline">elevate your brand!</span>.
       </motion.h1>
@@ -102,13 +102,13 @@ export default function Intro() {
           <BsLinkedin />
         </a>
 
-        <a
+        {/* <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://www.facebook.com/soham.banerjee.75054"
           target="_blank"
         >
           <FaFacebookSquare />
-        </a>
+        </a> */}
       </motion.div>
     </section>
   )
