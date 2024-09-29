@@ -19,28 +19,23 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Media Science</span>, I decided to pursue my
-        passion for digital marketing. I enrolled in a digital marketing bootcamp and learned{" "}
-        <span className="font-medium">digital marketing</span>.{" "}
-        <span className="italic">My favorite part of digital marketing</span> is 
-        creating eye catching Advertisements. I <span className="underline">love</span> to
-        combine creativity with analytical skills to visualize, create and analyze{" "}
+        After completing my degree in {" "}
+        <span className="font-medium">Media Science</span>, I decided to channel my passion for marketing into a focused career path. I further enhanced my knowledge with a comprehensive diploma in marketing communication and a digital marketing bootcamp, where I refined my expertise in crafting impactful, {" "}
+        <span className="font-medium">visually engaging advertisements</span>.{" "}
+        <span className="italic">I enjoy combining creativity with data-driven insights to design </span> and optimize digital content that resonates with target audiences. . Alongside my technical skills <span className="underline">I excel</span> 
+        in strategic communication, relationship building, and cross-functional collaboration. {" "}
         <span className="font-medium">
-          Engaging Digital Content
+        I'm always keen to stay ahead of marketing trends,
         </span>
-        . I am also proficient in strategic communication, relationship building , cross-functional collaboration. I am always looking to
-        learn new things. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a digital marketing executive.
+        ,and I am currently looking for a{" "}
+        <span className="font-medium">full-time role</span> as a Digital Marketing Executive 
+        to contribute my skills and grow within a forward-thinking team.
       </p>
 
       <p>
-        <span className="italic">When I'm not working</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the piano.
+        <span className="italic">When I'm not working</span>, I love traveling, exploring history and philosophy, and playing video games. I'm also currently learning to{" "}
+        <span className="font-medium">play the piano </span>, which has been{" "}
+        <span className="font-medium">a rewarding creative outlet.</span>
       </p>
     </motion.section>
   );
