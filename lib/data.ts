@@ -66,7 +66,7 @@ export const projectsData = [
     title: "Indian Taco House",
     description:
       "I was the Digital Marketing Manager for an Indo-Mexican QSR, responsible for strategizing online presence.",
-    tags: ["CANVA", "POSTERMYWALL", "BUFFER", "META BUSINESS SUITE", "MICROSOFT EXCEL", "CHATGPT"],
+    tags: ["CANVA", "POSTERMYWALL", "META BUSINESS SUITE", "MICROSOFT EXCEL", "CHATGPT"],
     imageUrl: corpcommentImg,
   },
   // {
