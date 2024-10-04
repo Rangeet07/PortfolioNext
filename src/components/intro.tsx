@@ -61,9 +61,9 @@ export default function Intro() {
       >
         <span className="font-bold">Hi, I'm Soham.</span> I'm a{" "}
         <span className="font-bold">marketing professional </span> specializing in {" "}
-        <span className="font-bold">Advertising and Public Relations </span> , with expertise
+        <span className="font-bold">Advertising and Public Relations </span> , with expertise in
         <span className="italic"> social media marketing & strategic communication </span>. Let's work together to{" "}
-        <span className="underline">elevate your brand!</span>
+        <span className="font-bold">elevate your brand!</span>
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
