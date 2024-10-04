@@ -22,7 +22,7 @@ export default function About() {
         After completing my degree in {" "}
         <span className="font-medium">Media Science</span>, I decided to channel my passion for marketing into a focused career path. I further enhanced my knowledge with a comprehensive diploma in marketing communication and a digital marketing bootcamp, where I refined my expertise in crafting impactful, {" "}
         <span className="font-medium">visually engaging advertisements</span>.{" "}
-        <span className="italic">I enjoy combining creativity with data-driven insights to design </span> and optimize digital content that resonates with target audiences. . Alongside my technical skills <span className="underline">I excel</span> 
+        <span className="font-medium">I enjoy combining creativity with data-driven insights to design </span> and optimize digital content that resonates with target audiences. . Alongside my technical skills <span className="">I excel </span> 
         in strategic communication, relationship building, and cross-functional collaboration. {" "}
         <span className="font-medium">
         I'm always keen to stay ahead of marketing trends,

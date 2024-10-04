@@ -2,7 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "../public/corpcomment.png";
+import corpcommentImg from "../public/indianth.jpeg";
+
 import rmtdevImg from "../public/rmtdev.png";
 import wordanalyticsImg from "../public/wordanalytics.png";
 
@@ -46,7 +47,7 @@ export const experiencesData = [
     title: "PUBLIC RELATIONS SOCIETY OF INDIA ",
     location: "Kolkata, India",
     description:
-      "As a student member of a public relations institute for one year, I gained valuable experience in ticketing portal management, social media workflow coordination, participant registration, and sponsorship management. This role helped me strengthen my organizational skills and deepen my understanding of effective event and media management.",
+      "As a student member of a public relations institute, I managed ticketing portals, coordinated social media workflows, registered participants, and handled sponsorships, enhancing my organizational and event management skills.",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - 2022",
   },
@@ -54,7 +55,7 @@ export const experiencesData = [
     title: "SILIGURI LIVE 24X7 - Inspire Media Production",
     location: "Siliguri, India",
     description:
-      "I completed a one-month internship at a digital news portal, where I developed and refined my skills in research, data collection, content creation, and reporting. This experience strengthened my ability to produce high-quality content and deliver accurate information in a fast-paced digital environment.",
+      "I completed a one-month internship at a digital news portal, honing my skills in research, data collection, content creation, and reporting in a fast-paced digital environment.",
     icon: React.createElement(FaReact),
     date: "2020 - 2020",
   },
