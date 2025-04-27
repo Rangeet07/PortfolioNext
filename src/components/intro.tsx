@@ -9,7 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare , FaFacebookSquare} from "react-icons/fa";
 import { useSectionInView } from "../../lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import baner from '../../public/banerjee.jpeg'
+import baner from '../../public/rangeet.png'
 
 export default function Intro() {
     const { ref } = useSectionInView("Home", 0.5);
@@ -30,7 +30,7 @@ export default function Intro() {
           >           
            <Image
               src={baner}
-              alt="Ricardo portrait"
+              alt="Rangeet portrait"
               width="192"
               height="192"
               quality="95"
@@ -59,11 +59,11 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hi, I'm Soham.</span> I'm a{" "}
-        <span className="font-bold">marketing professional </span> specializing in {" "}
-        <span className="font-bold">Advertising and Public Relations </span> , with expertise in
-        <span className="italic"> social media marketing & strategic communication </span>. Let's work together to{" "}
-        <span className="font-bold">elevate your brand!</span>
+        <span className="font-bold">Hello, I'm Rangeet.</span> I'm a{" "}
+        <span className="font-bold">full-stack developer</span> with{" "}
+        <span className="font-bold">2 years</span> of experience. I enjoy
+        building <span className="italic">sites & apps</span>. My focus is{" "}
+        <span className="underline">React (Next.js)</span>.
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
@@ -87,7 +87,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="https://drive.google.com/file/d/17_al3cqjArjntw-KZ3RktVELRZdBr3mP/view?usp=sharing"
+          href="https://drive.google.com/file/d/1BgaxgAUTflTUvu56OFGFvhx4DW5Q7UFJ/view?usp=drive_link"
           download
         >
           Download CV{" "}
@@ -96,19 +96,19 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/sohamb11/"
+          href="https://www.linkedin.com/in/rangeet-nandy-072a57201/"
           target="_blank"
         >
           <BsLinkedin />
         </a>
 
-        {/* <a
+        <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.facebook.com/soham.banerjee.75054"
+          href="https://github.com/Rangeet07"
           target="_blank"
         >
-          <FaFacebookSquare />
-        </a> */}
+          <FaGithubSquare />
+        </a>
       </motion.div>
     </section>
   )

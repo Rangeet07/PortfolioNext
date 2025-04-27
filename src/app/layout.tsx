@@ -10,8 +10,8 @@ import ThemeSwitch from '@/components/theme-switch'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Soham | Personal Portfolio',
-  description: 'Soham Banerjees portfolio',
+  title: 'Rangeet | Personal Portfolio',
+  description: 'Rangeets portfolio',
 }
 
 export default function RootLayout({

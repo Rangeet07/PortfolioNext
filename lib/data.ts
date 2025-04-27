@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "../public/indianth.jpeg";
+import corpcommentImg from "../public/ngrave.jpeg";
 
-import rmtdevImg from "../public/rmtdev.png";
+import rmtdevImg from "../public/blshlf.jpeg";
 import wordanalyticsImg from "../public/wordanalytics.png";
 
 export const links = [
@@ -36,46 +36,46 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "St. Xavier's College Autonomous",
-    location: "Kolkata, India",
+    title: "Jalpaiguri Government Engineering College",
+    location: "West Bengal, India",
     description:
-      "I completed Post Graduate Diploma in Integrated Marketing Communication here.",
+      "I completed my Graduation in Information Technology from here.",
     icon: React.createElement(LuGraduationCap),
-    date: "2021-2022",
+    date: "2020-2023",
   },
   {
-    title: "PUBLIC RELATIONS SOCIETY OF INDIA ",
-    location: "Kolkata, India",
+    title: "Siliguri Government Polytechnic",
+    location: "West Bengal, India",
     description:
-      "As a student member of a public relations institute, I managed ticketing portals, coordinated social media workflows, registered participants, and handled sponsorships, enhancing my organizational and event management skills.",
+      "I completed Diploma in Computer Science and Technology from here.",
     icon: React.createElement(CgWorkAlt),
-    date: "2021 - 2022",
+    date: "2017 - 2020",
   },
   {
-    title: "SILIGURI LIVE 24X7 - Inspire Media Production",
+    title: "Chegg",
     location: "Siliguri, India",
     description:
-      "I completed a one-month internship at a digital news portal, honing my skills in research, data collection, content creation, and reporting in a fast-paced digital environment.",
+      "I was a Computer Science Subject Matter Expert here where I solved various problems and questions related to DBMS, Web Development and Digital Circuits.",
     icon: React.createElement(FaReact),
-    date: "2020 - 2020",
+    date: "2022 - 2023",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "Indian Taco House",
+    title: "Engrave Tattoo School",
     description:
-      "I was the Digital Marketing Manager for an Indo-Mexican QSR, responsible for strategizing online presence.",
-    tags: ["CANVA", "POSTERMYWALL", "META BUSINESS SUITE", "MICROSOFT EXCEL", "CHATGPT"],
+      "I developed their website using Next Js 14, responsible for strategizing online presence.",
+    tags: ["Next js 14", "Chakra UI", "INSTAGRAM API", "Mongo DB", "CHATGPT"],
     imageUrl: corpcommentImg,
   },
-  // {
-  //   title: "rmtDev",
-  //   description:
-  //     "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-  //   tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-  //   imageUrl: rmtdevImg,
-  // },
+  {
+    title: "BlusshhLife",
+    description:
+      "Makeup Artist Portfolio Website. I was the front-end developer. It has features like filtering, sorting and pagination.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    imageUrl: rmtdevImg,
+  },
   // {
   //   title: "Word Analytics",
   //   description:
@@ -86,11 +86,19 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "Content Development",
-  "Copy Writing",
-  "Social Media Strategy",
-  "Search Engine Optimization",
-  "Content Management Systems",
-  "PowerPoint Presentation",
+  "Web Development",
+  "C++",
+  "HTML",
+  "CSS",
+  "Javascript",
+  "Node Js",
+  "React Js",
+  "Mongo DB",
+  "SQL",
+  "Next Js 14",
+  "Material UI",
+  "Bootstrap 4",
+  "Tailwind CSS"
+
  ,
 ] as const;

@@ -19,23 +19,30 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After completing my degree in {" "}
-        <span className="font-medium">Media Science</span>, I decided to channel my passion for marketing into a focused career path. I further enhanced my knowledge with a comprehensive diploma in marketing communication and a digital marketing bootcamp, where I refined my expertise in crafting impactful, {" "}
-        <span className="font-medium">visually engaging advertisements</span>.{" "}
-        <span className="font-medium">I enjoy combining creativity with data-driven insights to design </span> and optimize digital content that resonates with target audiences. . Alongside my technical skills <span className="">I excel </span> 
-        in strategic communication, relationship building, and cross-functional collaboration. {" "}
+        After graduating with a degree in{" "}
+        <span className="font-medium">Information Technology </span>, I decided to pursue my
+        passion for programming. I enrolled in a coding bootcamp and learned{" "}
+        <span className="font-medium">full-stack web development</span>.{" "}
+        <span className="italic">My favorite part of programming</span> is the
+        problem-solving aspect. I <span className="underline">love</span> the
+        feeling of finally figuring out a solution to a problem. My core stack
+        is{" "}
         <span className="font-medium">
-        I'm always keen to stay ahead of marketing trends,
+          React, Next.js, Node.js, and MongoDB
         </span>
-        ,and I am currently looking for a{" "}
-        <span className="font-medium">full-time role</span> as a Digital Marketing Executive 
-        to contribute my skills and grow within a forward-thinking team.
+        . I am also familiar with TypeScript and Prisma. I am always looking to
+        learn new technologies. I am currently looking for a{" "}
+        <span className="font-medium">full-time position</span> as a software
+        developer.
       </p>
 
       <p>
-        <span className="italic">When I'm not working</span>, I love traveling, exploring history and philosophy, and playing video games. I'm also currently learning to{" "}
-        <span className="font-medium">play the piano </span>, which has been{" "}
-        <span className="font-medium">a rewarding creative outlet.</span>
+        <span className="italic">When I'm not coding</span>, I enjoy playing
+        video games, watching movies, and playing with my dog. I also enjoy{" "}
+        <span className="font-medium">learning new things</span>. I am currently
+        learning about{" "}
+        <span className="font-medium">history and philosophy</span>. I'm also
+        learning how to play the guitar.
       </p>
     </motion.section>
   );
