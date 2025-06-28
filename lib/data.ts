@@ -5,7 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "../public/ngrave.jpeg";
 
 import rmtdevImg from "../public/blshlf.jpeg";
-import wordanalyticsImg from "../public/wordanalytics.png";
+import blogimg from "../public/blogsnip.png";
 
 export const links = [
   {
@@ -63,18 +63,26 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "TechBlogs",
+    description: "I developed a Tech Blog website to post stuff related to coding and software development along with an Admin Dashboard. ",
+    tags: ["Next js 14","Mongo DB", "Google Sheets", "MarkDown Editor", "Chart Js"],
+    imageUrl: blogimg,
+    link: "https://next-tech-blog-eight.vercel.app/"
+  },
+  {
     title: "Engrave Tattoo School",
     description:
       "I developed their website using Next Js 14, responsible for strategizing online presence.",
     tags: ["Next js 14", "Chakra UI", "INSTAGRAM API", "Mongo DB", "CHATGPT"],
     imageUrl: corpcommentImg,
-  },
+    link: "https://www.engravetattooschool.com/"  },
   {
     title: "BlusshhLife",
     description:
       "Makeup Artist Portfolio Website. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
+    link: "https://www.blusshh.life/"
   },
   // {
   //   title: "Word Analytics",
