@@ -5,7 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "../public/ngrave.jpeg";
 
 import rmtdevImg from "../public/blshlf.jpeg";
-import blogimage from "../public/blogsnip.png";
+import blimage from "../public/blogsnip.png";
 
 export const links = [
   {
@@ -66,7 +66,7 @@ export const projectsData = [
     title: "TechBlogs",
     description: "I developed a Tech Blog website to post stuff related to coding and software development along with an Admin Dashboard. ",
     tags: ["Next js 14","Mongo DB", "Google Sheets", "MarkDown Editor", "Chart Js"],
-    imageUrl: blogimage,
+    imageUrl: blimage,
     link: "https://next-tech-blog-eight.vercel.app/"
   },
   {
